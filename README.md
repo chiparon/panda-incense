@@ -6,7 +6,7 @@
 
 ## 安装原生版
 
-下载 [panda-incense-native.zip](panda-incense-native.zip)，将其中的 `panda-incense` 文件夹解压到：
+下载 [最新版原生安装包（panda-incense-native.zip）](https://github.com/chiparon/panda-incense/releases/latest/download/panda-incense-native.zip)，将其中的 `panda-incense` 文件夹解压到：
 
 - Windows：`%USERPROFILE%\.codex\pets\`
 - macOS / Linux：`~/.codex/pets/`
