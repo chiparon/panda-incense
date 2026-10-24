@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.playwright-mcp/
+research/
+runtime-status.json
+native-selection-backup.json
+reference-frame.png
+panda-incense-complete.zip
+assets/*capture.png
+publish/**/published.png
+publish/*submitted.png

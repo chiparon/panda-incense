@@ -1,0 +1,80 @@
+{
+  "nativeRows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "action": "incense",
+      "frames": 6
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "action": "roll-right",
+      "frames": 8
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "action": "roll-left",
+      "frames": 8
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "action": "laugh",
+      "frames": 4
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "action": "jump",
+      "frames": 5
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "action": "recover",
+      "frames": 8
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "action": "bamboo",
+      "frames": 6
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "action": "laptop",
+      "frames": 6
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "action": "review",
+      "frames": 6
+    },
+    {
+      "row": 9,
+      "state": "gaze-1",
+      "action": "gaze",
+      "frames": 8
+    },
+    {
+      "row": 10,
+      "state": "gaze-2",
+      "action": "gaze",
+      "frames": 8
+    }
+  ],
+  "companionEvents": {
+    "task_started": "laptop",
+    "task_complete": "review",
+    "turn_aborted": "recover",
+    "request_user_input": "bamboo",
+    "click": "laugh",
+    "drag": "roll-right / roll-left",
+    "idle": "incense",
+    "idle_break": "bamboo / jump / roll-right"
+  }
+}
